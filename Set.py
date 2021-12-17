@@ -7,7 +7,6 @@ print(set2)
 print(set3)
 
 #Adding items to the set3 using add() method.
-set3.add(8)
-set3.add(9)
+set3.update([8, 9])
 
 print(set3)
