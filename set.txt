@@ -1,3 +1,5 @@
 Adding items to the set
 
-Python provides the add() method and update() method which can be used to add some particular item to the set. The add() method is used to add a single element whereas the update() method is used to add multiple elements to the set. Consider the following example.
+Python provides the add() method and update() method which can be used to add some particular item to the set.
+The add() method is used to add a single element whereas the update() method is used to add multiple elements to the set.
+Consider the following example.
