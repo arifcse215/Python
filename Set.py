@@ -6,7 +6,6 @@ print(set1)
 print(set2)
 print(set3)
 
-#Remobing items to the set3 using discard() method.
-set3.discard(8)
+#Union of tow set using | operator.
 
-print(set3)
+print('Union set of set1 and set2: ', set1|set2)
