@@ -6,6 +6,6 @@ print(set1)
 print(set2)
 print(set3)
 
-#Union of tow set using | operator.
+#Union of tow set using union() method.
 
-print('Union set of set1 and set2: ', set1|set2)
+print('Union set of set1 and set2: ', set1.union(set2))
