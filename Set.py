@@ -6,6 +6,6 @@ print(set1)
 print(set2)
 print(set3)
 
-#Union of tow set using union() method.
+#Intersection of two sets usning & operator.
 
-print('Union set of set1 and set2: ', set1.union(set2))
+print('Intersection set of set1 and set2: ', set1&set2)
