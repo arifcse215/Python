@@ -6,8 +6,6 @@ print(set1)
 print(set2)
 print(set3)
 
-#The intersection_update() method.
+#Difference between the two sets using subtraction( - ) operator 
 
-set3.intersection_update(set1, set2)
-
-print(set3)
+print(set1-set2)

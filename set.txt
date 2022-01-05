@@ -1,5 +1,5 @@
-The intersection_update() method removes the items from the original set that are not present in both the 
-sets (all the sets if more than one are specified).
+Difference between the two sets
 
-The intersection_update() method is different from the intersection() method since it modifies the original 
-set by removing the unwanted items, on the other hand, the intersection() method returns a new set.
+The difference of two sets can be calculated by using the subtraction (-) operator or intersection() method.
+Suppose there are two sets A and B, and the difference is A-B that denotes the resulting set will be obtained 
+that element of A, which is not present in the set B.
