@@ -1,4 +1,5 @@
-Symmetric Difference of two sets
+Set comparisons
 
-The symmetric difference of two sets is calculated by ^ operator or symmetric_difference() method.
-Symmetric difference of sets, it removes that element which is present in both sets. Consider the following example:
+Python allows us to use the comparison operators i.e., <, >, <=, >= , == with 
+the sets by using which we can check whether a set is a subset, superset, or equivalent to other set.
+The boolean true or false is returned depending upon the items present inside the sets.

@@ -1,12 +1,12 @@
-set1 = set([1,2,3,4,5])
-set2 = set([3,4,5,6,7])
-set3 = set([1,2,3,4,5,6,7, 8])
-
-print(set1)
-print(set2)
-print(set3)
-
-#Symmetric Difference of two sets using symmetric_difference(). 
-
-A = set1.symmetric_difference(set2)
-print(A)
+Days1 = {"Monday",  "Tuesday", "Wednesday", "Thursday"}    
+Days2 = {"Monday", "Tuesday"}    
+Days3 = {"Monday", "Tuesday", "Friday"}    
+        
+#Days1 is the superset of Days2 hence it will print true.     
+print (Days1>Days2)     
+        
+#prints false since Days1 is not the subset of Days2     
+print (Days1<Days2)    
+        
+#prints false since Days2 and Days3 are not equivalent     
+print (Days2 == Days3)    
