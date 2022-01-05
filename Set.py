@@ -6,6 +6,6 @@ print(set1)
 print(set2)
 print(set3)
 
-#Difference between the two sets using subtraction( - ) operator 
+#Difference between the two sets using difference() method. 
 
-print(set1-set2)
+print(set1.difference(set2))
