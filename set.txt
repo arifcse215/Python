@@ -1,5 +1,4 @@
-Difference between the two sets
+Symmetric Difference of two sets
 
-The difference of two sets can be calculated by using the subtraction (-) operator or intersection() method.
-Suppose there are two sets A and B, and the difference is A-B that denotes the resulting set will be obtained 
-that element of A, which is not present in the set B.
+The symmetric difference of two sets is calculated by ^ operator or symmetric_difference() method.
+Symmetric difference of sets, it removes that element which is present in both sets. Consider the following example:

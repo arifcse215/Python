@@ -6,6 +6,7 @@ print(set1)
 print(set2)
 print(set3)
 
-#Difference between the two sets using difference() method. 
+#Symmetric Difference of two sets using ^ operator. 
 
-print(set1.difference(set2))
+A = set1 ^ set2
+print(A)
