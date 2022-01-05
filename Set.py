@@ -6,6 +6,8 @@ print(set1)
 print(set2)
 print(set3)
 
-#Intersection of two sets usning intersection() method.
+#The intersection_update() method.
 
-print('Intersection set of set1 and set2: ', set1&set2)
+set3.intersection_update(set1, set2)
+
+print(set3)

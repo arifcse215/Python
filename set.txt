@@ -1,3 +1,5 @@
-Python provides the discard() method and remove() method which can be used to remove the items from the set.
-The difference between these function, using discard() function if the item does not exist in the set then 
-the set remain unchanged whereas remove() method will through an error.
+The intersection_update() method removes the items from the original set that are not present in both the 
+sets (all the sets if more than one are specified).
+
+The intersection_update() method is different from the intersection() method since it modifies the original 
+set by removing the unwanted items, on the other hand, the intersection() method returns a new set.
