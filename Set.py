@@ -6,7 +6,7 @@ print(set1)
 print(set2)
 print(set3)
 
-#Symmetric Difference of two sets using ^ operator. 
+#Symmetric Difference of two sets using symmetric_difference(). 
 
-A = set1 ^ set2
+A = set1.symmetric_difference(set2)
 print(A)
