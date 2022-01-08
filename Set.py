@@ -1,7 +1,6 @@
-f = frozenset([1,2,3,4,5])
+info = {"Name":"Arif", "Dept.": "CSE", "University": "EWU"}
 
-print(type(f))
+f = frozenset(info)
 
-for i in f:
-    print(i)
-
+for x in f:
+    print(x)
