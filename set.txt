@@ -1,5 +1,12 @@
-Set comparisons
+FrozenSets
 
-Python allows us to use the comparison operators i.e., <, >, <=, >= , == with 
-the sets by using which we can check whether a set is a subset, superset, or equivalent to other set.
-The boolean true or false is returned depending upon the items present inside the sets.
+The frozen sets are the immutable form of the normal sets, i.e., 
+the items of the frozen set cannot be changed and therefore 
+it can be used as a key in the dictionary.
+
+The elements of the frozen set cannot be changed after the creation.
+We cannot change or append the content of the frozen sets by using the methods like add() or remove().
+
+The frozenset() method is used to create the frozenset object.
+The iterable sequence is passed into this method which is 
+converted into the frozen set as a return type of the method.
