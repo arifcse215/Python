@@ -1,5 +1,0 @@
-Frozenset for the dictionary
-
-If we pass the dictionary as the sequence inside the frozenset() method,
-it will take only the keys from the dictionary and returns a frozenset 
-that contains the key of the dictionary as its elements.
