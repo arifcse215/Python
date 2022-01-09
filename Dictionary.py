@@ -1,1 +1,2 @@
-print("Hello")
+Dict = {"Name": "Arif", "Dept.": "CSE"}
+print(Dict)
